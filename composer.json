@@ -1,0 +1,15 @@
+{
+    "name": "thomas/metrics-package",
+    "authors": [
+        {
+            "name": "Thomas Foresti",
+            "email": "thomas@batch.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Batch\\Metrics\\": "src"
+        }
+    }
+}
