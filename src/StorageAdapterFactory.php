@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Metric;
+namespace Batch\Metrics;
 
 use Prometheus\Storage\Adapter;
 use Prometheus\Storage\InMemory as InMemoryStorage;

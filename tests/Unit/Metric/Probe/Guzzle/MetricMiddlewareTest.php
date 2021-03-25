@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Metric\Probe\Guzzle;
+namespace Batch\Metrics\Tests\Unit\Metric\Probe\Guzzle;
 
-use App\Metric\Collector as MetricCollector;
-use App\Metric\Probe\Guzzle\MetricMiddleware;
+use Batch\Metrics\Collector as MetricCollector;
+use Batch\Metrics\Probe\Guzzle\MetricMiddleware;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

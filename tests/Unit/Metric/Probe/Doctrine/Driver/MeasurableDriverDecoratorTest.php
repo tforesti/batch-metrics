@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Metric\Probe\Doctrine\Driver;
+namespace Batch\Metrics\Tests\Unit\Metric\Probe\Doctrine\Driver;
 
-use App\Metric\Collector as MetricCollector;
-use App\Metric\Probe\Doctrine\Driver\MeasurableDriverDecorator;
+use Batch\Metrics\Collector as MetricCollector;
+use Batch\Metrics\Probe\Doctrine\Driver\MeasurableDriverDecorator;
 use Doctrine\DBAL\Driver\PDO\MySQL\Driver;
 use PHPUnit\Framework\TestCase;
 

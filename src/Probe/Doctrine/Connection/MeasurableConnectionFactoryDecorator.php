@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Probe\Doctrine\Connection;
+namespace Batch\Metrics\Probe\Doctrine\Connection;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Doctrine\Bundle\DoctrineBundle\ConnectionFactory;
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Configuration;

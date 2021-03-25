@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Metric\Probe\Doctrine\Connection;
+namespace Batch\Metrics\Tests\Unit\Metric\Probe\Doctrine\Connection;
 
-use App\Metric\Collector as MetricCollector;
-use App\Metric\Probe\Doctrine\Connection\MeasurableConnection;
-use App\Metric\Probe\Doctrine\Driver\MeasurableStatementDecorator;
+use Batch\Metrics\Collector as MetricCollector;
+use Batch\Metrics\Probe\Doctrine\Connection\MeasurableConnection;
+use Batch\Metrics\Probe\Doctrine\Driver\MeasurableStatementDecorator;
 use Doctrine\DBAL\Driver\PDO\MySQL\Driver;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use PHPUnit\Framework\TestCase;

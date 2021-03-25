@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Probe\Http;
+namespace Batch\Metrics\Probe\Http;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
 use Symfony\Component\HttpKernel\Event\TerminateEvent;

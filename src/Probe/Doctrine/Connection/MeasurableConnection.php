@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Probe\Doctrine\Connection;
+namespace Batch\Metrics\Probe\Doctrine\Connection;
 
-use App\Metric\Collector as MetricCollector;
-use App\Metric\Probe\Doctrine\Driver\MeasurableDriverDecorator;
-use App\Metric\Probe\Doctrine\Driver\MeasurableStatementDecorator;
+use Batch\Metrics\Collector as MetricCollector;
+use Batch\Metrics\Probe\Doctrine\Driver\MeasurableDriverDecorator;
+use Batch\Metrics\Probe\Doctrine\Driver\MeasurableStatementDecorator;
 use Doctrine\DBAL\Cache\QueryCacheProfile;
 use Doctrine\DBAL\Connection;
 use Safe\Exceptions\StringsException;

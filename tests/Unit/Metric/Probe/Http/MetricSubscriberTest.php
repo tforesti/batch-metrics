@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Metric\Probe\Http;
+namespace Batch\Metrics\Tests\Unit\Metric\Probe\Http;
 
-use App\Metric\Collector as MetricCollector;
-use App\Metric\Probe\Http\MetricSubscriber;
+use Batch\Metrics\Collector as MetricCollector;
+use Batch\Metrics\Probe\Http\MetricSubscriber;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Metric\Adapter;
+namespace Batch\Metrics\Tests\Unit\Metric\Adapter;
 
-use App\Metric\Adapter\RedisExceptionCatcherDecorator;
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Adapter\RedisExceptionCatcherDecorator;
+use Batch\Metrics\Collector as MetricCollector;
 use PHPUnit\Framework\TestCase;
 
 class RedisExceptionCatcherDecoratorTest extends TestCase

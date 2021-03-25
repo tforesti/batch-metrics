@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Metric;
+namespace Batch\Metrics;
 
 /**
  * A class to represent an unusable Redis instance due to various issues on instanciation.

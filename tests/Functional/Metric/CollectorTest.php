@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Functional\Metric;
+namespace Batch\Metrics\Tests\Functional\Metric;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Prometheus\CollectorRegistry;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 

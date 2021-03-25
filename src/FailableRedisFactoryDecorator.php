@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Metric;
+namespace Batch\Metrics;
 
 use Snc\RedisBundle\Client\Phpredis\Client;
 use Snc\RedisBundle\Client\Phpredis\ClientCluster;

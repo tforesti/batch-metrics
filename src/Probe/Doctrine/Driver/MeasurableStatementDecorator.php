@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Probe\Doctrine\Driver;
+namespace Batch\Metrics\Probe\Doctrine\Driver;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Doctrine\DBAL\Driver\Result;
 use Doctrine\DBAL\Driver\Statement;
 use Doctrine\DBAL\ParameterType;

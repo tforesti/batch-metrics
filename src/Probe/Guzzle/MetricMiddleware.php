@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Probe\Guzzle;
+namespace Batch\Metrics\Probe\Guzzle;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

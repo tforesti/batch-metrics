@@ -1,15 +1,52 @@
 {
-    "name": "thomas/metrics-package",
+    "name": "batch/metrics-bundle",
+    "type": "symfony-bundle",
     "authors": [
         {
             "name": "Thomas Foresti",
             "email": "thomas@batch.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
-            "Batch\\Metrics\\": "src"
+            "Batch\\Metrics\\": "src",
+            "Prometheus\\": "vendor/endclothing/prometheus_client_php/src/Prometheus"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Batch\\Metrics\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2.5",
+        "dg/bypass-finals": "^1.3",
+        "jetbrains/phpstorm-stubs": "^2020.2"
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-redis": "*",
+        "symfony/framework-bundle": "5.2.*",
+        "endclothing/prometheus_client_php": "^1.0.3",
+        "thecodingmachine/safe": "^1.0.0",
+        "guzzlehttp/guzzle": "~7.2",
+        "doctrine/doctrine-bundle": "2.2.*",
+        "doctrine/dbal": "2.12.1",
+        "snc/redis-bundle": "^3.3",
+        "friendsofphp/proxy-manager-lts": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "endclothing/prometheus_client_php",
+                "version": "1.0.3",
+                "source": {
+                    "url": "https://github.com/endclothing/prometheus_client_php",
+                    "type": "git",
+                    "reference": "b0931c73f9204c8e75259f13184d4350f3e0868a"
+                }
+            }
+        }
+    ]
 }

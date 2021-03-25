@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Metric\Adapter;
+namespace Batch\Metrics\Adapter;
 
-use App\Metric\Collector;
+use Batch\Metrics\Collector;
 
 /**
  * A decorator wrapping an adapter and intercepting Redis exceptions.

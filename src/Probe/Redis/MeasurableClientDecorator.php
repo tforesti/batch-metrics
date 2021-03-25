@@ -5,9 +5,9 @@ declare(strict_types=1);
 // phpcs:disable PSR1.Methods.CamelCapsMethodName.NotCamelCaps
 // phpcs:disable PSR2.Methods.MethodDeclaration.Underscore
 
-namespace App\Metric\Probe\Redis;
+namespace Batch\Metrics\Probe\Redis;
 
-use App\Metric\Collector as MetricCollector;
+use Batch\Metrics\Collector as MetricCollector;
 use Safe\Exceptions\JsonException;
 
 use function Safe\json_encode;
